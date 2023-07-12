@@ -1,0 +1,40 @@
+.nav{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color: rgba(119, 147, 145, 0.932);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+}
+.brand{
+    color: white;
+    font-size: 350%;
+    margin: 10px;
+}
+.menu{
+    margin: 20px;
+    
+}
+.linkCategory{
+    text-decoration: none;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 120%;
+    border: none;
+}
+.linkCategoryActive{
+    text-decoration: none;
+    margin: 10px;
+    background-color: transparent;
+    color: rgb(245, 232, 211);
+    font-size: 130%;
+    font-weight: 600;
+    border: none;
+}

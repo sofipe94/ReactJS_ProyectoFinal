@@ -1,0 +1,43 @@
+.card{
+    background-color: rgb(253, 247, 238);
+    width: 250px;
+    padding: 30px;
+    margin: 10px;
+}
+.productTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.productImage{
+    width: 200px;
+    height: 250px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px rgba(119, 147, 145, 0.932);
+}
+.productImage:hover{
+    transform: scale(1.1);
+}
+.productDetails{
+    font-weight: 500;
+}
+.productDetailButton{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(119, 147, 145, 0.932);
+    border: solid 1px rgba(119, 147, 145, 0.932);
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    font-size: 110%;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
